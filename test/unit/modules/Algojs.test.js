@@ -8,11 +8,11 @@ import {
     // getFirstValue,
     // sortByLength,
     // minMax,
-    filterArray,
+    // filterArray,
     // animals,
     // lastItem,
     // reverseArray,
-    // addition,
+    addition,
     // boolToString,
     // filterArrayInt,
     // arrayOfMultiples,
@@ -145,17 +145,17 @@ import {
 // });
 
 // // -------------------------------------------------- Filter Strings from Array --------------------------------------
-test("---------filterArray---------", t => {
+// test("---------filterArray---------", t => {
 
-    t.test("filterArray", assert => {
-        const message = "returns an array of integers only.";
-        const expected = [1, 2, 3, 4];
-        const actual = filterArray();
+//     t.test("filterArray", assert => {
+//         const message = "returns an array of integers only.";
+//         const expected = [1, 2, 3, 4];
+//         const actual = filterArray();
 
-        assert.deepEqual(actual, expected, message);
-        assert.end();
-    });
-});
+//         assert.deepEqual(actual, expected, message);
+//         assert.end();
+//     });
+// });
 
 // // -----------------------------------------------The Farm Problem -----------------------------------------
 // test("---------The Farm Problem---------", t => {
@@ -196,16 +196,16 @@ test("---------filterArray---------", t => {
 // });
 
 // // -------------------------------------------------- Return the Next Number from the Integer Passed --------------------------------------
-// test("---------addition---------", t => {
-//     t.test("addition", assert => {
-//         const message = "Increments the number by + 1 and returns the result.";
-//         const expected = 10;
-//         const actual = addition();
+test("---------addition---------", t => {
+    t.test("addition", assert => {
+        const message = "Increments the number by + 1 and returns the result.";
+        const expected = 10;
+        const actual = addition();
 
-//         assert.equal(actual, expected, message);
-//         assert.end();
-//     });
-// });
+        assert.equal(actual, expected, message);
+        assert.end();
+    });
+});
 
 // // --------------------------------------------------- Boolean to String Conversion -------------------------------------
 // test("--------boolToString---------", t => {

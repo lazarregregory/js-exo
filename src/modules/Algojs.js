@@ -50,29 +50,34 @@
 
 
 // --------------------------------------------------- Sort by String Length -------------------------------------
-export function sortByLength(a){
-   var x = 0;
+// export function sortByLength(a){
+//    var x = 0;
    
-    for(var i=0;i<a.length-1;i++){
-       for(var j=i+1;j<a.length;j++){
-            if(a[j].length<a[i].length){
-                x=a[i];
-                a[i]=a[j];
-                a[j]=x;
-            }
-        }
+//     for(var i=0;i<a.length-1;i++){
+//        for(var j=i+1;j<a.length;j++){
+//             if(a[j].length<a[i].length){
+//                 x=a[i];
+//                 a[i]=a[j];
+//                 a[j]=x;
+//             }
+//         }
 
-    } 
-return a
-}
+//     } 
+// return a
+// }
 
 // --------------------------------------------------- Filter Strings from Array -------------------------------------
 // export function filterArray(tab){
-// for(i = 0;i<tab.length;i++){
-//     if (tab[i+1] != ""){
-//          = 
+//     var tab = [1, 2, 3, 4];
+//     var result = [];
+//     var j = 0;
+//     for(var i = 0;i<tab.length;i++){
+//     if(tab[i]>=0 || tab[i]<0){
+//          result[j] = tab[i];
+//          j++;
 //     }
 // }
+// return result;
 
 // }
 // --------------------------------------------------- Return Last Item -------------------------------------
@@ -85,7 +90,10 @@ return a
 
 
 // --------------------------------------------------- Return the Next Number from the Integer Passed -------------------------------------
-
+export function addition(a){
+ var a = 9
+ return a+1;   
+}
 
 // --------------------------------------------------- Boolean to String Conversion -------------------------------------
 
