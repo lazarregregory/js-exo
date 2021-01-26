@@ -1,59 +1,80 @@
 "use strict";
 
 // --------------------------------------------Function without argument--------------------------------------------
-export function isoNum() {
-    return 42;
-}
+// export function isoNum() {
+//     return 42;
+// }
 
-// --------------------------------------------------- Function with arguments -------------------------------------
-export function myFct(a,b){
-    return a+b
+// // --------------------------------------------------- Function with arguments -------------------------------------
+// export function myFct(a,b){
+//     return a+b
 
-}
+// }
 
-// --------------------------------------------------- Messi’s Goal Total -------------------------------------
-export function goalTotal(a,b,c){
-    return a+b+c
+// // --------------------------------------------------- Messi’s Goal Total -------------------------------------
+// export function goalTotal(a,b,c){
+//     return a+b+c
 
-}
-// --------------------------------------------------- Grasshopper Order of Operations -------------------------------------
-export function GrasshopperOrder() {
-    return (2 + 2) * (2 + 2) * 2;
-    }
+// }
+// // --------------------------------------------------- Grasshopper Order of Operations -------------------------------------
+// export function GrasshopperOrder() {
+//     return (2 + 2) * (2 + 2) * 2;
+//     }
     
-// --------------------------------------------------- Return the First Element in an Array -------------------------------------
-export function getFirstValue(a){
-   var a = [58, 34, 29];
-   return a[0];
+// // --------------------------------------------------- Return the First Element in an Array -------------------------------------
+// export function getFirstValue(a){
+//    var a = [58, 34, 29];
+//    return a[0];
 
-}
+// }
 
-// --------------------------------------------------- Find the Smallest and Biggest Numbers -------------------------------------
-export function minMax(tab){
-var a = tab[0];
-var b= tab[0];
+// // --------------------------------------------------- Find the Smallest and Biggest Numbers -------------------------------------
+// export function minMax(tab){
+// var a = tab[0];
+// var b= tab[0];
 
-    for(var i=0;i<tab.length;i++){
-        if(a > tab[i+1]){
-            a = tab[i+1];
-        }
-        if(b < tab[i+1]){
-            b = tab[i+1];
-        }
-    }
-    return [a,b];
+//     for(var i=0;i<tab.length;i++){
+//         if(a > tab[i+1]){
+//             a = tab[i+1];
+//         }
+//         if(b < tab[i+1]){
+//             b = tab[i+1];
+//         }
+//     }
+//     return [a,b];
     
     
-}
+// }
 
 // --------------------------------------------------- Find the Smallest and Biggest Numbers -------------------------------------
 
 
 // --------------------------------------------------- Sort by String Length -------------------------------------
+export function sortByLength(a){
+   var x = 0;
+   
+    for(var i=0;i<a.length-1;i++){
+       for(var j=i+1;j<a.length;j++){
+            if(a[j].length<a[i].length){
+                x=a[i];
+                a[i]=a[j];
+                a[j]=x;
+            }
+        }
 
+    } 
+return a
+}
 
 // --------------------------------------------------- Filter Strings from Array -------------------------------------
+// export function filterArray(tab){
+// for(i = 0;i<tab.length;i++){
+//     if (tab[i+1] != ""){
+//          = 
+//     }
+// }
 
+// }
 // --------------------------------------------------- Return Last Item -------------------------------------
 
 
