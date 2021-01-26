@@ -22,11 +22,29 @@ export function GrasshopperOrder() {
     }
     
 // --------------------------------------------------- Return the First Element in an Array -------------------------------------
+export function getFirstValue(a){
+   var a = [58, 34, 29];
+   return a[0];
 
+}
 
 // --------------------------------------------------- Find the Smallest and Biggest Numbers -------------------------------------
+export function minMax(tab){
+var a = tab[0];
+var b= tab[0];
 
-
+    for(var i=0;i<tab.length;i++){
+        if(a > tab[i+1]){
+            a = tab[i+1];
+        }
+        if(b < tab[i+1]){
+            b = tab[i+1];
+        }
+    }
+    return [a,b];
+    
+    
+}
 
 // --------------------------------------------------- Find the Smallest and Biggest Numbers -------------------------------------
 
