@@ -142,20 +142,32 @@
 //     console.log(c)
 // }
 // --------------------------------------------------- Array of Multiples -------------------------------------
-export function arrayOfMultiples(num , length){
-    var tab = []
-    var x = 0
-    for(var i= 1;i<length+1;i++){
-        tab[x]=num*i
-        x++
-    }
-    return tab
-}
+// export function arrayOfMultiples(num , length){
+//     var tab = []
+//     var x = 0
+//     for(var i= 1;i<length+1;i++){
+//         tab[x]=num*i
+//         x++
+//     }
+//     return tab
+// }
 
 // --------------------------------------------------- Convert Hours and Minutes into Seconds -------------------------------------
-
+// export function convert(hours,minutes){
+//     var a = minutes*60
+//     var b = (hours*60)*60
+//     return a+b
+// }
 // --------------------------------------------------- Return Negative -------------------------------------
-
+// export function returnNegative(a){
+//     if(a>0){
+//         return -a
+//     }
+//     if(a<=0){
+//         return a
+//     }
+    
+// }
 // --------------------------------------------------- Simple Loop -------------------------------------
 
 
