@@ -68,7 +68,7 @@
 
 // --------------------------------------------------- Filter Strings from Array -------------------------------------
 // export function filterArray(tab){
-//     var tab = [1, 2, 3, 4];
+//     var tab = [1, 2, 3,"a","b",4];
 //     var result = [];
 //     var j = 0;
 //     for(var i = 0;i<tab.length;i++){
@@ -81,27 +81,76 @@
 
 // }
 // --------------------------------------------------- Return Last Item -------------------------------------
+// export function lastItem(a){
+//  var a = ('The quick brown fox jumped over the lazy dog')
 
+// }
 
 
 // --------------------------------------------------- The Farm Problem -------------------------------------
+// export function animals(){
+// var c = 2;
+// var v = 4;
+// var p = 4;
+// return c*2+v*3+p*5
 
+// }
 // --------------------------------------------------- Reverse an Array -------------------------------------
-
+// export function reverseArray(){
+//     var z = 0
+//     var a = [1, 2, 3, 4] 
+//     for(var i = 0;i<a.length;i++){
+//         for(var j = 0;j<a.length;j++){
+//             if(a[i]>a[j]){
+//                 z=a[j];
+//                 a[j]=a[i];
+//                 a[i]=z;
+//             }
+//         }
+//     } 
+//     return a        
+// }
 
 // --------------------------------------------------- Return the Next Number from the Integer Passed -------------------------------------
-export function addition(a){
- var a = 9
- return a+1;   
-}
+// export function addition(a){
+//  var a = 9
+//  return a+1;   
+// }
 
 // --------------------------------------------------- Boolean to String Conversion -------------------------------------
+// export function boolToString(flag){
+//     if(flag == false){
+//         return "false"
+//     }
+//     if(flag == true){
+//         return "true"
+//     }
 
+// }
 
 // --------------------------------------------------- Filter out Strings from an Array -------------------------------------
+// export function filterArrayInt(b){
+    
+//     var c = 0
+//     var d = b.indexOf("")
+//     for(var i = 0;i<b.length;i++){
+//         if(i!==d){
+//             c=c+i
+//         }
+//     }
 
+//     console.log(c)
+// }
 // --------------------------------------------------- Array of Multiples -------------------------------------
-
+export function arrayOfMultiples(num , length){
+    var tab = []
+    var x = 0
+    for(var i= 1;i<length+1;i++){
+        tab[x]=num*i
+        x++
+    }
+    return tab
+}
 
 // --------------------------------------------------- Convert Hours and Minutes into Seconds -------------------------------------
 

@@ -12,10 +12,10 @@ import {
     // animals,
     // lastItem,
     // reverseArray,
-    addition,
+    // addition,
     // boolToString,
     // filterArrayInt,
-    // arrayOfMultiples,
+    arrayOfMultiples,
     // convert,
     // returnNegative,
     // simpleLoop,
@@ -196,16 +196,16 @@ import {
 // });
 
 // // -------------------------------------------------- Return the Next Number from the Integer Passed --------------------------------------
-test("---------addition---------", t => {
-    t.test("addition", assert => {
-        const message = "Increments the number by + 1 and returns the result.";
-        const expected = 10;
-        const actual = addition();
+// test("---------addition---------", t => {
+//     t.test("addition", assert => {
+//         const message = "Increments the number by + 1 and returns the result.";
+//         const expected = 10;
+//         const actual = addition();
 
-        assert.equal(actual, expected, message);
-        assert.end();
-    });
-});
+//         assert.equal(actual, expected, message);
+//         assert.end();
+//     });
+// });
 
 // // --------------------------------------------------- Boolean to String Conversion -------------------------------------
 // test("--------boolToString---------", t => {
@@ -256,32 +256,32 @@ test("---------addition---------", t => {
 // });
 
 // // --------------------------------------------- Array of Multiples -------------------------------------------
-// test("---------arrayOfMultiples---------", t => {
-//     t.test("TEST 1 : arrayOfMultiples", assert => {
-//         const message = "converts an object into an array.  Your function Should return [7, 14, 21, 28, 35]";
-//         const expected = [7, 14, 21, 28, 35];
-//         const actual = arrayOfMultiples(7, 5);
+test("---------arrayOfMultiples---------", t => {
+    t.test("TEST 1 : arrayOfMultiples", assert => {
+        const message = "converts an object into an array.  Your function Should return [7, 14, 21, 28, 35]";
+        const expected = [7, 14, 21, 28, 35];
+        const actual = arrayOfMultiples(7, 5);
 
-//         assert.deepEqual(actual, expected, message);
-//         assert.end();
-//     });
-//     t.test("TEST 2 : arrayOfMultiples", assert => {
-//         const message = "converts an object into an array. Your function  Should return  [12, 24, 36, 48, 60, 72, 84, 96, 108, 120]";
-//         const expected = [12, 24, 36, 48, 60, 72, 84, 96, 108, 120];
-//         const actual = arrayOfMultiples(12, 10);
+        assert.deepEqual(actual, expected, message);
+        assert.end();
+    });
+    t.test("TEST 2 : arrayOfMultiples", assert => {
+        const message = "converts an object into an array. Your function  Should return  [12, 24, 36, 48, 60, 72, 84, 96, 108, 120]";
+        const expected = [12, 24, 36, 48, 60, 72, 84, 96, 108, 120];
+        const actual = arrayOfMultiples(12, 10);
 
-//         assert.deepEqual(actual, expected, message);
-//         assert.end();
-//     });
-//     t.test("TEST 3 : arrayOfMultiples", assert => {
-//         const message = "converts an object into an array. Your function  Should return [17, 34, 51, 68, 85, 102]";
-//         const expected = [17, 34, 51, 68, 85, 102];
-//         const actual = arrayOfMultiples(17, 6);
+        assert.deepEqual(actual, expected, message);
+        assert.end();
+    });
+    t.test("TEST 3 : arrayOfMultiples", assert => {
+        const message = "converts an object into an array. Your function  Should return [17, 34, 51, 68, 85, 102]";
+        const expected = [17, 34, 51, 68, 85, 102];
+        const actual = arrayOfMultiples(17, 6);
 
-//         assert.deepEqual(actual, expected, message);
-//         assert.end();
-//     });
-// });
+        assert.deepEqual(actual, expected, message);
+        assert.end();
+    });
+});
 
 // // ------------------------------------------- Convert Hours and Minutes into Seconds ---------------------------------------------
 // test("---------convert---------", t => {
