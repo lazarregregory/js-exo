@@ -14,11 +14,11 @@ import {
     // reverseArray,
     // addition,
     // boolToString,
-    // filterArrayInt,
+    filterArrayInt,
     // arrayOfMultiples,
     // convert,
     // returnNegative,
-    simpleLoop,
+    // simpleLoop,
     // getArea,
     // makesTen,
     // addUp,
@@ -228,32 +228,32 @@ import {
 // });
 
 // // ----------------------------------------------- Filter out Strings from an Array -----------------------------------------
-// test("---------filterArrayInt---------", t => {
-//     t.test("TEST 1 : filterArrayInt", assert => {
-//         const message = "converts an object into an array. YOU NEED TO RETURN [1, 2]";
-//         const expected = [1, 2];
-//         const actual = filterArrayInt([1, 2, "a", "b"]);
+test("---------filterArrayInt---------", t => {
+    t.test("TEST 1 : filterArrayInt", assert => {
+        const message = "converts an object into an array. YOU NEED TO RETURN [1, 2]";
+        const expected = [1, 2];
+        const actual = filterArrayInt([1, 2, "a", "b"]);
 
-//         assert.deepEqual(actual, expected, message);
-//         assert.end();
-//     });
-//     t.test("TEST 2 : filterArrayInt", assert => {
-//         const message = "converts an object into an array. YOU NEDD TO RETURN [1, 0, 15]";
-//         const expected = [1, 0, 15];
-//         const actual = filterArrayInt([1, "a", "b", 0, 15]);
+        assert.deepEqual(actual, expected, message);
+        assert.end();
+    });
+    t.test("TEST 2 : filterArrayInt", assert => {
+        const message = "converts an object into an array. YOU NEDD TO RETURN [1, 0, 15]";
+        const expected = [1, 0, 15];
+        const actual = filterArrayInt([1, "a", "b", 0, 15]);
 
-//         assert.deepEqual(actual, expected, message);
-//         assert.end();
-//     });
-//     t.test("TEST 3 : filterArrayInt", assert => {
-//         const message = "converts an object into an array. YOU NEED TO RETUEN [1, 2, 123]";
-//         const expected = [1, 2, 123];
-//         const actual = filterArrayInt([1, 2, "aasf", "1", "123", 123]);
+        assert.deepEqual(actual, expected, message);
+        assert.end();
+    });
+    t.test("TEST 3 : filterArrayInt", assert => {
+        const message = "converts an object into an array. YOU NEED TO RETUEN [1, 2, 123]";
+        const expected = [1, 2, 123];
+        const actual = filterArrayInt([1, 2, "aasf", "1", "123", 123]);
 
-//         assert.deepEqual(actual, expected, message);
-//         assert.end();
-//     });
-// });
+        assert.deepEqual(actual, expected, message);
+        assert.end();
+    });
+});
 
 // // --------------------------------------------- Array of Multiples -------------------------------------------
 // test("---------arrayOfMultiples---------", t => {
@@ -340,16 +340,16 @@ import {
 // });
 
 // // ------------------------------------------------- Simple Loop---------------------------------------
-test("---------Simple Loop---------", t => {
-    t.test("SimpleLoop     ----> 1 TEST", assert => {
-        const message = "returns negative of that number.  Your function  Should return -4";
-        const expected = [1, 2, 3, 4, 5, 6];
-        const actual = simpleLoop(6);
+// test("---------Simple Loop---------", t => {
+//     t.test("SimpleLoop     ----> 1 TEST", assert => {
+//         const message = "returns negative of that number.  Your function  Should return -4";
+//         const expected = [1, 2, 3, 4, 5, 6];
+//         const actual = simpleLoop(6);
 
-        assert.equal(actual, expected, message);
-        assert.end();
-    });
-});
+//         assert.equal(actual, expected, message);
+//         assert.end();
+//     });
+// });
 
 // // ---------------------------------------------Area of a Rectangle-------------------------------------------
 // test("---------Area of a Rectangle---------", t => {

@@ -129,18 +129,18 @@
 // }
 
 // --------------------------------------------------- Filter out Strings from an Array -------------------------------------
-// export function filterArrayInt(b){
-    
-//     var c = 0
-//     var d = b.indexOf("")
-//     for(var i = 0;i<b.length;i++){
-//         if(i!==d){
-//             c=c+i
-//         }
-//     }
+export function filterArrayInt(b){
+    var tab = [];
+    var c = 0
+    for(var i = 0;i<b.length;i++){
+        if(typeof(b[i]) === "number"){
+            tab[c]=b[i]
+            c++
+        }
+    }
 
-//     console.log(c)
-// }
+    return tab
+}
 // --------------------------------------------------- Array of Multiples -------------------------------------
 // export function arrayOfMultiples(num , length){
 //     var tab = []
@@ -169,13 +169,56 @@
     
 // }
 // --------------------------------------------------- Simple Loop -------------------------------------
+// export function simpleLoop(a){
+//     var tab= [];
+//     var e = 0 ;
+//     for(var i=1;i<=a;i++){
+//         tab[e]=i;
+//         e++;
 
+//     }
+//     return tab;
+// }
 
 // --------------------------------------------------- Area of a Rectangle -------------------------------------
+// export function getArea(a,b){
+//     if(a>0){
+//         return a*b
+//     }
+//     else{
+//         return -1
+//     }
 
+// }
 // --------------------------------------------------- Two Makes Ten -------------------------------------
+// export function makesTen(a,b){
+//     if(a==10||b==10|| a+b ==10){
+//         return true
+//     }
+//     else{
+//         return false
+//     }
 
+// }
 
 // --------------------------------------------------- Add up the Numbers from a Single Number -------------------------------------
-
+// export function addUp(a){
+//     var e =0;
+//     for(var i = 0;i<a;i++){
+        
+//         e=e+i
+//         e++
+        
+//     }
+//     return e
+// }
 // --------------------------------------------------- Matchstick Houses -------------------------------------
+// export function matchHouses(a){
+//     var e = 0
+//     if(a==1){
+//         return 6
+//     }
+//     else{
+//         return a*5+1
+//     }
+// }
